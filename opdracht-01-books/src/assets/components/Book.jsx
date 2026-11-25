@@ -1,9 +1,9 @@
-const Book = () => {
+const Book = ({title, author, img}) => {
     return ( 
-        <section>
-            <h1>Titel</h1>
-            <h2>auteur</h2>
-            <img src="" alt="" />
+        <section className="book">
+            <img src={img} alt= {'${title}'}/>
+            <h1>{title}</h1> 
+            <h2>{author}</h2>
         </section>
      );
 }
