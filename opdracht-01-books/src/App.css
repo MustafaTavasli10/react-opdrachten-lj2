@@ -56,3 +56,35 @@ body {
   letter-spacing: 1.5px;
   margin: 0;
 }
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9e2ec;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: #102a43;
+}
+
+.nav-item:hover {
+  color: #2563eb;
+}
+
+.layout {
+  width: 80vw;
+  margin: 0 auto;
+}
