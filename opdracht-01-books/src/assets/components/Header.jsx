@@ -1,7 +1,7 @@
 const Header = () => {
     return (  
         <header className="header">
-        <nav aria-lab="Hoofdnavigatie">
+        <nav aria-label="Hoofdnavigatie">
         <ul className="nav-list">
             <li className="nav-item">home</li>
             <li className="nav-item">contact</li>
