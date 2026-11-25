@@ -104,3 +104,8 @@ body {
 .read-btn:hover {
   background-color: #243b53;
 }
+
+.booklist > h2 {
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
